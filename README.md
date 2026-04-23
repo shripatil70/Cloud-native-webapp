@@ -77,10 +77,57 @@ User → ALB → Auto Scaling Group (EC2 Instances) → Docker → Flask App
 
 ---
 
-## 🛠️ Setup Instructions
+# 🛠️ Setup Instructions
 
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/shripatil70/cloud-native-webapp.git
 cd cloud-native-webapp
 ```
+
+### 2. Build Docker Image
+```bash
+docker build -t flask-app .
+```
+
+### 3. Run Container
+```bash
+docker run -p 5000:5000 flask-app
+```
+
+### 4. Access Locally
+```bash
+http://localhost:5000
+```
+
+---
+
+# AWS Deployment Steps (Summary)
+
+- **Launch EC2 instance**
+- **Install Docker & Git**
+- **Clone repo and run container**
+- **Create Application Load Balancer**
+- **Create Target Group**
+- **Configure Auto Scaling Group**
+- **Attach ALB to ASG**
+- **Monitor using CloudWatch**
+
+## 🎯 Key Achievements
+
+- ⚡ Achieved ~0.1s response time using ALB routing
+- 🔄 Enabled automatic scaling based on demand
+- 🟢 Maintained high availability using multi-instance architecture
+- 📊 Implemented real-time monitoring using CloudWatch
+
+## 🔮 Future Improvements
+
+- Add CI/CD using AWS CodePipeline
+- Add HTTPS (SSL via ACM)
+- Integrate custom domain (Route 53)
+- Push Docker image to Docker Hub
+
+## 👨‍💻 Author
+*Dhanashri Patil*
+
+
