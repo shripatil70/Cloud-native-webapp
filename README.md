@@ -1,4 +1,4 @@
-# 🚀 Cloud-Native Scalable Web Application
+#  Cloud-Native Scalable Web Application
 
 A production-style cloud application built using **Flask**, **Docker**, and **AWS services** including EC2, Application Load Balancer (ALB), Auto Scaling, and CloudWatch.
 
@@ -27,7 +27,7 @@ User → ALB → Auto Scaling Group (EC2 Instances) → Docker → Flask App
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Containerized Flask application  
 - ✅ Load-balanced traffic distribution  
@@ -43,7 +43,7 @@ User → ALB → Auto Scaling Group (EC2 Instances) → Docker → Flask App
 
 ---
 
-## 📊 CloudWatch Metrics (Proof of Performance)
+##  CloudWatch Metrics (Proof of Performance)
 
 ### 1️⃣ Request Count (Traffic Monitoring)
 ![RequestCount](https://github.com/shripatil70/Cloud-native-webapp/blob/e76ebab10881d675060df980e2dd49c827f98033/Outputs/request_count.png)  
@@ -77,7 +77,7 @@ User → ALB → Auto Scaling Group (EC2 Instances) → Docker → Flask App
 
 ---
 
-# 🛠️ Setup Instructions
+#  Setup Instructions
 
 ### 1. Clone Repository
 ```bash
@@ -113,21 +113,21 @@ http://localhost:5000
 - **Attach ALB to ASG**
 - **Monitor using CloudWatch**
 
-## 🎯 Key Achievements
+##  Key Achievements
 
 - ⚡ Achieved ~0.1s response time using ALB routing
 - 🔄 Enabled automatic scaling based on demand
 - 🟢 Maintained high availability using multi-instance architecture
 - 📊 Implemented real-time monitoring using CloudWatch
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Add CI/CD using AWS CodePipeline
 - Add HTTPS (SSL via ACM)
 - Integrate custom domain (Route 53)
 - Push Docker image to Docker Hub
 
-## 👨‍💻 Author
+##  Author
 *Dhanashri Patil*
 
 
