@@ -73,7 +73,7 @@ User → ALB → Auto Scaling Group (EC2 Instances) → Docker → Flask App
 ---
 
 ## 📸 Architecture Diagram
-![Architecture](screenshots/architecture.png)
+![Architecture](https://github.com/shripatil70/Cloud-native-webapp/blob/8122c72b192a3b3de103dae942bdcaaa23fa895e/Outputs/cloud-native-architecture.png)
 
 ---
 
